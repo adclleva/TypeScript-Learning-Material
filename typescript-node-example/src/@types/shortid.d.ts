@@ -1,0 +1,1 @@
+declare module "shortid" // this is for typescript to not throw any errors for a type of module
