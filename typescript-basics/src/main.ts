@@ -29,6 +29,10 @@ interface MyObj {
     y: 2
   }
 
+  if (obj2.z) {
+    obj2.z + 45
+  }
+
   const obj3: MyObj = {
     x: 144,
     y: 2
@@ -109,3 +113,9 @@ const doesAnything =(x: any) => {
 }
 
 doesAnything(() => 5)
+
+/* for showing the ts config example */
+export interface RandomType {
+  x: number; 
+  name: string;
+}
